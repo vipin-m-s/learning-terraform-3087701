@@ -1,7 +1,5 @@
-variable "ami" {}
-variable "instance_type" {}
 
 resource "aws_instance" "app" {
-  ami = var.ami
-  instance_type = var.instance_type
+  ami = "ami-022062aacfecac5bd"
+  instance_type = "t3.micro"
 }
