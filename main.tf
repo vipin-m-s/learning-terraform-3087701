@@ -4,5 +4,6 @@ resource "aws_instance" "app" {
   instance_type = "t3.micro"
   tags = {
     Name = "ec2"
+    Owner = "AMazon"
   }
 }
